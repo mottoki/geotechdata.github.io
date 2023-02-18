@@ -2,10 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mottoki.github.io/geotechdata.github.io/categories/</loc>
+    <loc>https://mottoki.github.io/geotechdata.github.io/page/about/</loc>
+    <lastmod>2023-02-18T23:13:06+08:00</lastmod>
   </url><url>
     <loc>https://mottoki.github.io/geotechdata.github.io/</loc>
+    <lastmod>2023-02-18T23:13:06+08:00</lastmod>
+  </url><url>
+    <loc>https://mottoki.github.io/geotechdata.github.io/page/</loc>
+    <lastmod>2023-02-18T23:13:06+08:00</lastmod>
+  </url><url>
+    <loc>https://mottoki.github.io/geotechdata.github.io/blog/</loc>
+    <lastmod>2023-02-18T23:12:48+08:00</lastmod>
+  </url><url>
+    <loc>https://mottoki.github.io/geotechdata.github.io/blog/hello_world/</loc>
+    <lastmod>2023-02-18T23:12:48+08:00</lastmod>
   </url><url>
     <loc>https://mottoki.github.io/geotechdata.github.io/tags/</loc>
+    <lastmod>2023-02-18T23:12:48+08:00</lastmod>
+  </url><url>
+    <loc>https://mottoki.github.io/geotechdata.github.io/tags/test/</loc>
+    <lastmod>2023-02-18T23:12:48+08:00</lastmod>
+  </url><url>
+    <loc>https://mottoki.github.io/geotechdata.github.io/categories/</loc>
   </url>
 </urlset>
