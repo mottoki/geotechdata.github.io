@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uncertainty on Geotechnical Data Solution</title>
+    <link>https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/</link>
+    <description>Recent content in uncertainty on Geotechnical Data Solution</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Feb 2023 17:11:00 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sensitivity analysis tool</title>
+      <link>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</link>
+      <pubDate>Sun, 19 Feb 2023 17:11:00 +0800</pubDate>
+      
+      <guid>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</guid>
+      <description>&lt;p&gt;Tornado chart is effective method to visualise the impact of uncertainties.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

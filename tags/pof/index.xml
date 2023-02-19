@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pof on Geotechnical Data Solution</title>
+    <link>https://mottoki.github.io/geotechdata.github.io/tags/pof/</link>
+    <description>Recent content in pof on Geotechnical Data Solution</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Feb 2023 23:12:48 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/pof/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probability of Failure and runout</title>
+      <link>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</link>
+      <pubDate>Sat, 18 Feb 2023 23:12:48 +0800</pubDate>
+      
+      <guid>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</guid>
+      <description>&lt;p&gt;Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
