@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>geotechnical on Geotechnical Data Solution</title>
+    <title>geotechnical on Mining Geotechnics</title>
     <link>https://mottoki.github.io/geotechdata.github.io/tags/geotechnical/</link>
-    <description>Recent content in geotechnical on Geotechnical Data Solution</description>
+    <description>Recent content in geotechnical on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Feb 2023 23:12:48 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/geotechnical/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,10 @@
       <pubDate>Sat, 18 Feb 2023 23:12:48 +0800</pubDate>
       
       <guid>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</guid>
-      <description>&lt;p&gt;Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.&lt;/p&gt;</description>
+      <description>Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.
+Inputs Televiewer data The application uses dip and dip direction of structure datasets. It can also utilise the spatial data for filtering purpose.
+An example of input data sheet can be as the image below:
+Slope configurations and material parameters Slope configurations and material parameters such as shear strengths of structure are critical information for the estimation of POF and runout distance.</description>
     </item>
     
   </channel>

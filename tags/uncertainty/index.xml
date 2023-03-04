@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>uncertainty on Geotechnical Data Solution</title>
+    <title>uncertainty on Mining Geotechnics</title>
     <link>https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/</link>
-    <description>Recent content in uncertainty on Geotechnical Data Solution</description>
+    <description>Recent content in uncertainty on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Feb 2023 17:11:00 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sensitivity analysis tool</title>
+      <title>Tornado chart tool for Sensitivity analyses</title>
       <link>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</link>
       <pubDate>Sun, 19 Feb 2023 17:11:00 +0800</pubDate>
       
       <guid>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</guid>
-      <description>&lt;p&gt;Tornado chart is effective method to visualise the impact of uncertainties.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Tornado chart is effective method to visualise the impact of uncertainties.&lt;/p&gt;
+&lt;p&gt;Inputs for tornado chart are simple.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_input.png&#34; alt=&#34;input&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-base-case-value&#34;&gt;1. Base case value&lt;/h3&gt;
+&lt;p&gt;Base case value is most likely scenario for the assessment.&lt;/p&gt;
+&lt;h3 id=&#34;2-bound-selection-and-order-of-chart&#34;&gt;2. Bound selection and order of chart&lt;/h3&gt;
+&lt;h4 id=&#34;bound-selection&#34;&gt;Bound Selection&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_bound_selection.png&#34; alt=&#34;bound&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Users can select following for bound display:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Show both lower bound and upper bound&lt;/li&gt;
+&lt;li&gt;Show only lower bound values&lt;/li&gt;
+&lt;li&gt;Show only upper bound values&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;order-of-chart&#34;&gt;Order of chart&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/chart_reorder.png&#34; alt=&#34;order&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Chart order can be reorganised from smallest to largest or from largest to smallest based on lower bound or upper bound values.&lt;/p&gt;
+&lt;h3 id=&#34;3-sensitivity-inputs&#34;&gt;3. Sensitivity inputs&lt;/h3&gt;
+&lt;p&gt;Users can select number of inputs, and enter lower bound and/or upper bound values for each inputs.&lt;/p&gt;
+&lt;p&gt;The outcome will be displayed as the tornado chart.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_outcome.png&#34; alt=&#34;outcome&#34;&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

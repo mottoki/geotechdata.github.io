@@ -6,11 +6,11 @@
   <link rel="icon" href="/favicon.svg">
 
   <title>
-  Probability of Failure and runout - Geotechnical Data Solution
+  Probability of Failure and runout - Mining Geotechnics
   </title>
   <meta name="description" content="Fast and intuitive method to visualise televiwer data and calculate probability of failure and runout distance from the potential failure." />
   <meta name="author" content="GDS" />
-  <meta name="generator" content="Hugo 0.110.0"><link
+  <meta name="generator" content="Hugo 0.111.1"><link
     rel="stylesheet"
     href="https://mottoki.github.io/geotechdata.github.io/css/styles.min.7f2bc1aec6ed6f86f20e791697aef06795dbc4417aed7319cbbeb3e782d979cf.css"
     integrity="sha256-fyvBrsbtb4byDnkWl67wZ5XbxEF67XMZy76z54LZec8="
@@ -32,7 +32,7 @@
   <meta itemprop="name" content="Probability of Failure and runout">
 <meta itemprop="description" content="Fast and intuitive method to visualise televiwer data and calculate probability of failure and runout distance from the potential failure."><meta itemprop="datePublished" content="2023-02-18T23:12:48+08:00" />
 <meta itemprop="dateModified" content="2023-02-18T23:12:48+08:00" />
-<meta itemprop="wordCount" content="43">
+<meta itemprop="wordCount" content="211">
 <meta itemprop="keywords" content="geotechnical,pof,runout," />
 
   
@@ -40,7 +40,7 @@
 <body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
   <a href="https://mottoki.github.io/geotechdata.github.io/" class="capitalize font-extrabold text-2xl">
     
-    Geotechnical Data Solution
+    Mining Geotechnics
     
   </a>
   <button class="mobile-menu-button md:hidden">
@@ -91,7 +91,7 @@
 
   
   <div class="relative max-w-5xl mx-auto px-4">
-    <img src="https://f005.backblazeb2.com/file/gds-website/pof/polarplot.jpg" class="rounded-lg shadow-sm w-full object-contain" />
+    <img src="https://f005.backblazeb2.com/file/gds-website/pof/polarplot_tv.png" class="rounded-lg shadow-sm w-full object-contain" />
     
   </div>
   
@@ -111,13 +111,78 @@
     </h5>
     
 
-    
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
+
+    <ul class="mt-2 pb-4">
+        
+
+        
+        <li>
+        <a href="#inputs">Inputs</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#televiewer-data">Televiewer data</a>
+        
+
+        
+        </li><li>
+        <a href="#slope-configurations-and-material-parameters">Slope configurations and material parameters</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#outcome">Outcome</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#pof">PoF</a>
+        
+
+        
+        </li><li>
+        <a href="#runout">Runout</a>
+        </li></ul>
+    </li></ul>
+  </details>
 
     <p>Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.</p>
-<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/runout_pof.jpg" alt="runout"></p>
+<h3 id="inputs">Inputs</h3>
+<h4 id="televiewer-data">Televiewer data</h4>
+<p>The application uses dip and dip direction of structure datasets. It can also utilise the spatial data for filtering purpose.</p>
+<p>An example of input data sheet can be as the image below:</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/inputs_pof_tv.png" alt="tvdata"></p>
+<h4 id="slope-configurations-and-material-parameters">Slope configurations and material parameters</h4>
+<p>Slope configurations and material parameters such as shear strengths of structure are critical information for the estimation of POF and runout distance.</p>
+<p>Open pit slope configurations such as batter face angle, berm width and batter height are required.</p>
+<p>Material shear strengths can be entered in Mohr-Coulomb or Barton Bandis format.</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/input_material.png" alt="inputs"></p>
+<h3 id="outcome">Outcome</h3>
 <p>Based on Slope configurations and bedding shear stength, instantly able to visualise estimated POF and runout distance distribution.</p>
+<h4 id="pof">PoF</h4>
+<p>Probability of Failure (POF) vs Batter Face Angle (BFA) graph makes it easy to visualise the optimal BFA that achieves Design Acceptance Criteria.</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/pof_bfa.png" alt="pof_bfa"></p>
+<p>PoF can be filtered by spatial data including the elevation.</p>
+<p>Graph below shows how the application visualise PoF changes based on the elevation of slope.</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/elevation_pof.png" alt="elevation_pof"></p>
+<h4 id="runout">Runout</h4>
+<p>Runout distribution is estimated using simple trigonometric calculation. Angle of repose and Swell factor can be input for the runout estimation</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/pof/runout_distribution.png" alt="runout"></p>
 <hr>
-<p>For more information, please contact us.</p>
+<p>For more information or demonstration, please do not hesitate to contact us.</p>
+
   </article>
 <div class="px-2 mb-2">
   

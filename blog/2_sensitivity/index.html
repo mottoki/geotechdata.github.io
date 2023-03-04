@@ -6,11 +6,11 @@
   <link rel="icon" href="/favicon.svg">
 
   <title>
-  Sensitivity analysis tool - Geotechnical Data Solution
+  Tornado chart tool for Sensitivity analyses - Mining Geotechnics
   </title>
-  <meta name="description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties." />
+  <meta name="description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties. Torando chart is effective method for visualisation." />
   <meta name="author" content="GDS" />
-  <meta name="generator" content="Hugo 0.110.0"><link
+  <meta name="generator" content="Hugo 0.111.1"><link
     rel="stylesheet"
     href="https://mottoki.github.io/geotechdata.github.io/css/styles.min.7f2bc1aec6ed6f86f20e791697aef06795dbc4417aed7319cbbeb3e782d979cf.css"
     integrity="sha256-fyvBrsbtb4byDnkWl67wZ5XbxEF67XMZy76z54LZec8="
@@ -18,21 +18,21 @@
   
   
 
-  <meta property="og:title" content="Sensitivity analysis tool" />
-<meta property="og:description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties." />
+  <meta property="og:title" content="Tornado chart tool for Sensitivity analyses" />
+<meta property="og:description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties. Torando chart is effective method for visualisation." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2023-02-19T17:11:00+08:00" />
 <meta property="article:modified_time" content="2023-02-19T17:11:00+08:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Sensitivity analysis tool"/>
-<meta name="twitter:description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties."/>
+<meta name="twitter:title" content="Tornado chart tool for Sensitivity analyses"/>
+<meta name="twitter:description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties. Torando chart is effective method for visualisation."/>
 
-  <meta itemprop="name" content="Sensitivity analysis tool">
-<meta itemprop="description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties."><meta itemprop="datePublished" content="2023-02-19T17:11:00+08:00" />
+  <meta itemprop="name" content="Tornado chart tool for Sensitivity analyses">
+<meta itemprop="description" content="Sensitivity analyses are crucial part of geotechnical engineering to assess impact of uncertainties. Torando chart is effective method for visualisation."><meta itemprop="datePublished" content="2023-02-19T17:11:00+08:00" />
 <meta itemprop="dateModified" content="2023-02-19T17:11:00+08:00" />
-<meta itemprop="wordCount" content="11">
+<meta itemprop="wordCount" content="118">
 <meta itemprop="keywords" content="sensitivity,uncertainty," />
 
   
@@ -40,7 +40,7 @@
 <body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
   <a href="https://mottoki.github.io/geotechdata.github.io/" class="capitalize font-extrabold text-2xl">
     
-    Geotechnical Data Solution
+    Mining Geotechnics
     
   </a>
   <button class="mobile-menu-button md:hidden">
@@ -91,14 +91,14 @@
 
   
   <div class="relative max-w-5xl mx-auto px-4">
-    <img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/tornado&#43;chart.png" class="rounded-lg shadow-sm w-full object-contain" />
+    <img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_screen.png" class="rounded-lg shadow-sm w-full object-contain" />
     
   </div>
   
 
   <article class="prose lg:prose-lg mx-auto my-8 dark:prose-dark px-4">
 
-    <h1 class="text-2xl font-bold mb-2">Sensitivity analysis tool</h1>
+    <h1 class="text-2xl font-bold mb-2">Tornado chart tool for Sensitivity analyses</h1>
     
     <h5 class="text-sm flex items-center flex-wrap">
       
@@ -111,9 +111,67 @@
     </h5>
     
 
-    
+    <details id="TableOfContents" class="px-4 mt-4 bg-gray-100 dark:bg-gray-700 rounded toc">
+    <summary class="flex items-center font-bold py-2 px-4 cursor-pointer justify-between select-none text-black dark:text-white">
+      <span>Table of contents</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg>
+    </summary>
+
+    <ul class="mt-2 pb-4">
+        
+
+        
+        <li>
+        <a href="#1-base-case-value">1. Base case value</a>
+        
+
+        
+        </li><li>
+        <a href="#2-bound-selection-and-order-of-chart">2. Bound selection and order of chart</a>
+        
+
+        
+        <ul>
+            <li>
+        <a href="#bound-selection">Bound Selection</a>
+        
+
+        
+        </li><li>
+        <a href="#order-of-chart">Order of chart</a>
+        
+
+        
+        </li></ul>
+      </li><li>
+        <a href="#3-sensitivity-inputs">3. Sensitivity inputs</a>
+        </li></ul>
+  </details>
 
     <p>Tornado chart is effective method to visualise the impact of uncertainties.</p>
+<p>Inputs for tornado chart are simple.</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_input.png" alt="input"></p>
+<h3 id="1-base-case-value">1. Base case value</h3>
+<p>Base case value is most likely scenario for the assessment.</p>
+<h3 id="2-bound-selection-and-order-of-chart">2. Bound selection and order of chart</h3>
+<h4 id="bound-selection">Bound Selection</h4>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_bound_selection.png" alt="bound"></p>
+<p>Users can select following for bound display:</p>
+<ol>
+<li>Show both lower bound and upper bound</li>
+<li>Show only lower bound values</li>
+<li>Show only upper bound values</li>
+</ol>
+<h4 id="order-of-chart">Order of chart</h4>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/chart_reorder.png" alt="order"></p>
+<p>Chart order can be reorganised from smallest to largest or from largest to smallest based on lower bound or upper bound values.</p>
+<h3 id="3-sensitivity-inputs">3. Sensitivity inputs</h3>
+<p>Users can select number of inputs, and enter lower bound and/or upper bound values for each inputs.</p>
+<p>The outcome will be displayed as the tornado chart.</p>
+<p><img src="https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_outcome.png" alt="outcome"></p>
   </article>
 <div class="px-2 mb-2">
   
