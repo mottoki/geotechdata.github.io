@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pof on Mining Geotechnics</title>
-    <link>https://mottoki.github.io/geotechdata.github.io/tags/pof/</link>
+    <link>https://mininggeotechnics.com/tags/pof/</link>
     <description>Recent content in pof on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:12:48 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/pof/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Feb 2023 23:12:48 +0800</lastBuildDate><atom:link href="https://mininggeotechnics.com/tags/pof/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Probability of Failure and runout</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</link>
+      <link>https://mininggeotechnics.com/blog/1_pof_runout/</link>
       <pubDate>Sat, 18 Feb 2023 23:12:48 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</guid>
+      <guid>https://mininggeotechnics.com/blog/1_pof_runout/</guid>
       <description>Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.
 Inputs Televiewer data The application uses dip and dip direction of structure datasets. It can also utilise the spatial data for filtering purpose.
 An example of input data sheet can be as the image below:

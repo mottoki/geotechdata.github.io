@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mining Geotechnics</title>
-    <link>https://mottoki.github.io/geotechdata.github.io/</link>
+    <link>https://mininggeotechnics.com/</link>
     <description>Recent content on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Feb 2023 23:09:08 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 23:09:08 +0800</lastBuildDate><atom:link href="https://mininggeotechnics.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact Us</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/page/contact/</link>
+      <link>https://mininggeotechnics.com/page/contact/</link>
       <pubDate>Sun, 19 Feb 2023 23:09:08 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/page/contact/</guid>
+      <guid>https://mininggeotechnics.com/page/contact/</guid>
       <description>How can we maximise our data?
-Contact Geotechnical Data Solution representative by submitting a form below and we will get back to you for further consultation.
+Contact Mining Geotechnics representative by submitting a form below and we will get back to you for further consultation.
 Name* Email* Subject* Message* Send</description>
     </item>
     
     <item>
       <title>Water level and Extraction relationship</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/3_hydrovis/</link>
+      <link>https://mininggeotechnics.com/blog/3_hydrovis/</link>
       <pubDate>Sun, 19 Feb 2023 17:12:06 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/3_hydrovis/</guid>
+      <guid>https://mininggeotechnics.com/blog/3_hydrovis/</guid>
       <description>&lt;p&gt;Hydrogeology often greatly impact geotechnical engineering and the visualisation of relationship between water level and extraction rate can benefit engineers to comprehend the hydrogeology characteristics.&lt;/p&gt;
 &lt;h3 id=&#34;input-data&#34;&gt;Input data&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/hydrovis/inputs_hydro.png&#34; alt=&#34;inputs&#34;&gt;&lt;/p&gt;
@@ -39,10 +39,10 @@ Name* Email* Subject* Message* Send</description>
     
     <item>
       <title>Tornado chart tool for Sensitivity analyses</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</link>
+      <link>https://mininggeotechnics.com/blog/2_sensitivity/</link>
       <pubDate>Sun, 19 Feb 2023 17:11:00 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</guid>
+      <guid>https://mininggeotechnics.com/blog/2_sensitivity/</guid>
       <description>&lt;p&gt;Tornado chart is effective method to visualise the impact of uncertainties.&lt;/p&gt;
 &lt;p&gt;Inputs for tornado chart are simple.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_input.png&#34; alt=&#34;input&#34;&gt;&lt;/p&gt;
@@ -68,19 +68,19 @@ Name* Email* Subject* Message* Send</description>
     
     <item>
       <title>About</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/page/about/</link>
+      <link>https://mininggeotechnics.com/page/about/</link>
       <pubDate>Sat, 18 Feb 2023 23:13:06 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/page/about/</guid>
+      <guid>https://mininggeotechnics.com/page/about/</guid>
       <description>Geotech Data Solution</description>
     </item>
     
     <item>
       <title>Probability of Failure and runout</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</link>
+      <link>https://mininggeotechnics.com/blog/1_pof_runout/</link>
       <pubDate>Sat, 18 Feb 2023 23:12:48 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/1_pof_runout/</guid>
+      <guid>https://mininggeotechnics.com/blog/1_pof_runout/</guid>
       <description>Often Geotechnical Engineer use televiewer data to calculate probability of failure (POF) and runout distance from the potential failure.
 Inputs Televiewer data The application uses dip and dip direction of structure datasets. It can also utilise the spatial data for filtering purpose.
 An example of input data sheet can be as the image below:

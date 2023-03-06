@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>uncertainty on Mining Geotechnics</title>
-    <link>https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/</link>
+    <link>https://mininggeotechnics.com/tags/uncertainty/</link>
     <description>Recent content in uncertainty on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Feb 2023 17:11:00 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 17:11:00 +0800</lastBuildDate><atom:link href="https://mininggeotechnics.com/tags/uncertainty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tornado chart tool for Sensitivity analyses</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</link>
+      <link>https://mininggeotechnics.com/blog/2_sensitivity/</link>
       <pubDate>Sun, 19 Feb 2023 17:11:00 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/2_sensitivity/</guid>
+      <guid>https://mininggeotechnics.com/blog/2_sensitivity/</guid>
       <description>&lt;p&gt;Tornado chart is effective method to visualise the impact of uncertainties.&lt;/p&gt;
 &lt;p&gt;Inputs for tornado chart are simple.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/sensitivity/sensitivity_input.png&#34; alt=&#34;input&#34;&gt;&lt;/p&gt;

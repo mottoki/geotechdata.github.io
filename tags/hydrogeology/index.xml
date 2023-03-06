@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hydrogeology on Mining Geotechnics</title>
-    <link>https://mottoki.github.io/geotechdata.github.io/tags/hydrogeology/</link>
+    <link>https://mininggeotechnics.com/tags/hydrogeology/</link>
     <description>Recent content in hydrogeology on Mining Geotechnics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Feb 2023 17:12:06 +0800</lastBuildDate><atom:link href="https://mottoki.github.io/geotechdata.github.io/tags/hydrogeology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 17:12:06 +0800</lastBuildDate><atom:link href="https://mininggeotechnics.com/tags/hydrogeology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Water level and Extraction relationship</title>
-      <link>https://mottoki.github.io/geotechdata.github.io/blog/3_hydrovis/</link>
+      <link>https://mininggeotechnics.com/blog/3_hydrovis/</link>
       <pubDate>Sun, 19 Feb 2023 17:12:06 +0800</pubDate>
       
-      <guid>https://mottoki.github.io/geotechdata.github.io/blog/3_hydrovis/</guid>
+      <guid>https://mininggeotechnics.com/blog/3_hydrovis/</guid>
       <description>&lt;p&gt;Hydrogeology often greatly impact geotechnical engineering and the visualisation of relationship between water level and extraction rate can benefit engineers to comprehend the hydrogeology characteristics.&lt;/p&gt;
 &lt;h3 id=&#34;input-data&#34;&gt;Input data&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://f005.backblazeb2.com/file/gds-website/hydrovis/inputs_hydro.png&#34; alt=&#34;inputs&#34;&gt;&lt;/p&gt;
